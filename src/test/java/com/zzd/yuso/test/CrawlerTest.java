@@ -4,6 +4,7 @@ import cn.hutool.http.HttpRequest;
 import cn.hutool.json.JSONArray;
 import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
+import com.zzd.yuso.job.cycle.SimpleCanalClient;
 import com.zzd.yuso.model.entity.Picture;
 import com.zzd.yuso.model.entity.Post;
 import com.zzd.yuso.service.PostService;

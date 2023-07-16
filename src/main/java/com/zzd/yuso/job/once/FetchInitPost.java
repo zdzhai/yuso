@@ -8,6 +8,7 @@ import com.zzd.yuso.model.entity.Post;
 import com.zzd.yuso.service.PostService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
 import java.util.ArrayList;

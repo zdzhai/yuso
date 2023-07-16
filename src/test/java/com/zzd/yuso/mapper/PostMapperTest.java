@@ -24,4 +24,8 @@ class PostMapperTest {
         List<Post> postList = postMapper.listPostWithDelete(new Date());
         Assertions.assertNotNull(postList);
     }
+    @Test
+    void deleteTest() {
+        postMapper.deleteById("1680510701602312202");
+    }
 }
